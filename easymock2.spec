@@ -1,6 +1,6 @@
 Name:           easymock2
 Version:        2.5.2
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Easy mock objects
 License:        ASL 2.0
 Group:          Development/Languages
@@ -84,6 +84,9 @@ rm -rf target/site/apidocs
 %doc %{_javadocdir}/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.5.2-12
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.5.2-11
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
